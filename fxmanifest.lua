@@ -9,7 +9,10 @@ version '1.0.0'
 fx_version 'cerulean'
 lua54 'yes'
 
-dependency 'ox_lib'
+dependencies {
+    'ox_lib',
+    'ox_inventory'
+}
 
 shared_scripts {
     '@ox_lib/init.lua'
